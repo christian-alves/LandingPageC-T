@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway:800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:500&display=swap" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<section id="header">
+<nav id="bg-dark-md" class="navbar navbar-expand-lg navbar-light">
+    <span class="d-lg-none"><img src="img/logo-tattoo-week-_-corinthians-recordes-guinness-world-records-2019.png" width="50" height="50"></span>
+  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav m-auto align-items-center">
+      <a class="nav-item nav-link active md-mr-5" href="#howto">COMO PARTICIPAR<span class="sr-only">(Página atual)</span></a>
+      <a class="nav-item nav-link md-mr-5" href="#form">PARTICIPE</a>
+      <a id="logonav" class="navbar-brand md-mr-5 mx-5" href="#"><img src="img/logo-tattoo-week-_-corinthians-recordes-guinness-world-records-2019.png"></img></a>
+      <a class="nav-item nav-link md-mr-5" href="#faq">FAQ</a>
+      <a id="regulamento" class="nav-item nav-link md-mr-5" data-toggle="modal" style="cursor:pointer">REGULAMENTO</a>
+    </div>
+  </div>
+</nav>
+
+    <div id="thisback" class="justify-content-center align-items-center d-flex">
+      <img class="img-fluid" src="img/logo-tattoo-week-_-corinthians-2019.png"></img>       
+    </div>
+    <div  id="buttondescer" class="justify-content-center d-flex">
+      <a href="#howto"> <img class="img-fluid" src="img/botão-tattoo-week-_-corinthians-2019.png"></img> </a>
+    </div>
+
+</section>
+
+
+<section id="howto">
+    <div class="d-block-flex text-center  justify-content-center container">
+        <h1>COMO PARTICIPAR</h1>
+        <br>
+        <p> As inscrições para os corinthianos que querem participar da competição podem ser feitas a partir de quint-feira, dia 5 de setembro.</p>
+        <br>
+        <br>
+        <p class="font-weight-light">Com R$90,00 de custo de insccrição, o torcedor ganha um combo que inclui: a tatuagem logo "CP" do Corinthians padronizada pela
+        equip da Tattoo Week, camiseta promocional do evento,Ingresso para jogo do Corinthians na Arena Corinthians (a definir) e ingressos
+        VIP para a Tattoo Week 2019 (que ficará válido com a doação de 1kg de alimento não perecível na entrada de Tattoo Week).Inscrições
+        limitadas para 3 mil torcedores, que devem ser maiores de 18 anos.
+        </p>
+    </div>
+    
+
+    <form id="form" class="needs-validation container" action="post-pay.php" method="post">
+  <div >
+    <div class="col-md-12 mb-3">
+      <input type="text" class="form-control" id="validationTooltip01" id="name" placeholder="NOME" name="nome" required>
+      <div class="valid-tooltip">
+        Looks good!
+      </div>
+    </div>
+
+  
+  <div class="d-block-flex d-md-inline-flex">
+    <div class="col-12 col-md-4 col-xs-12 col-sm-12 mb-3">
+      <input type="text" class="form-control" id="validationTooltip03" id="email" placeholder="E-MAIL" name="email" required>
+      <div class="invalid-tooltip">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-12 col-md-4 col-xs-12 col-sm-12 mb-3">
+      <input type="text" class="form-control" id="validationTooltip04" id="telefone" placeholder="TELEFONE" name="telefone" required>
+      <div class="invalid-tooltip">
+        Please provide a valid state.
+      </div>
+    </div>
+    <div class="col-12 col-md-2 col-xs-12 col-sm-12 mb-3">
+    <select id="estado" name="estado" class="form-control">
+    <option value="AC">Acre</option>
+    <option value="AL">Alagoas</option>
+    <option value="AP">Amapá</option>
+    <option value="AM">Amazonas</option>
+    <option value="BA">Bahia</option>
+    <option value="CE">Ceará</option>
+    <option value="DF">Distrito Federal</option>
+    <option value="ES">Espírito Santo</option>
+    <option value="GO">Goiás</option>
+    <option value="MA">Maranhão</option>
+    <option value="MT">Mato Grosso</option>
+    <option value="MS">Mato Grosso do Sul</option>
+    <option value="MG">Minas Gerais</option>
+    <option value="PA">Pará</option>
+    <option value="PB">Paraíba</option>
+    <option value="PR">Paraná</option>
+    <option value="PE">Pernambuco</option>
+    <option value="PI">Piauí</option>
+    <option value="RJ">Rio de Janeiro</option>
+    <option value="RN">Rio Grande do Norte</option>
+    <option value="RS">Rio Grande do Sul</option>
+    <option value="RO">Rondônia</option>
+    <option value="RR">Roraima</option>
+    <option value="SC">Santa Catarina</option>
+    <option value="SP">São Paulo</option>
+    <option value="SE">Sergipe</option>
+    <option value="TO">Tocantins</option>
+    <option value="EX">Estrangeiro</option>
+</select>
+      <div class="invalid-tooltip">
+        Please provide a valid zip.
+      </div>
+    </div>
+    <div class="col-12 col-md-2 col-xs-12 col-sm-12 mb-3">
+      <input type="text" class="form-control" id="cidade" placeholder="CIDADE" name="cidade" required>
+      <div class="invalid-tooltip">
+        Please provide a valid zip.
+      </div>
+    </div>
+  </div>
+<button id="btnsubmit" class="btn form-control w-25 w-md-10 ml-2" type="submit">ENVIAR</button>
+</form>
+</section>
+
+<section id="faq">
+<div class="container-fluid display-8 pt-5 bg-softer-darker-gray">
+    <h3 class="text-white display-md-4 h2 mb-3 text-center letter-spacing-1 font-weight-extreme-bold">FAQ</h3>
+    <div class="container pb-5 text-left" id="perguntas">
+
+      <div class="pergDOIS">
+        <div class="my-1" id="headerPergDOIS"> 
+        <a href="" class="text-orange " data-toggle="collapse" data-target="#respostaDOIS" aria-expanded="true" aria-controls="respostaDOIS">
+        <span class="text-yellow">1.</span> QUEM PODE PARTICIPAR DO EVENTO?<i class="fas fa-angle-down"></i> 
+        </div>
+        <div id="respostaDOIS" class="collapse" aria-labelledby="headerPergDOIS" data-parent="#perguntas">
+          <div class="text-dark-white font-weight-light">
+          Para participar do desafio Corinthians Record de Tatuagem do Guiness Book, deve ser maior de 18 anos, efetuar a inscrição pagando o valor de R$ 90,00 + TAXA, incluir os dados pessoais pedidos na ficha de inscrição. 
+        <br><br>
+        O Evento é aberto ao público, para maiores de 18 anos, menores devem ser acompanhados pelos pais ou por maior de idade responsável. 
+        <br><br>
+        Sobre a Tattoo: <br>
+        Logo “CP” tamanho 3,5x2,5 <br>
+        Em local de preferência *exceto regiões íntimas e de mobilidade.  <br>
+
+
+
+            <br><span class="small muted">*O não comparecimento ao evento cancela a inscrição sem direito a reembolso.</span>
+          </div>
+        </div>
+      </div>
+      <div class="pergTRES">
+        <div class="my-1" id="headerPergTRES">
+          <a href="" class="text-orange" data-toggle="collapse" data-target="#respostaTRES" aria-expanded="true" aria-controls="respostaTRES">
+          <span class="text-yellow">2.</span> TENTEI ME CADASTRAR NO SITE DO EVENTO E NÃO CONSEGUI, O QUE EU FAÇO?<i class="fas fa-angle-down text-white"></i>
+          </a>
+        </div>
+        <div id="respostaTRES" class="collapse" aria-labelledby="headerPergTRES" data-parent="#perguntas">
+          <div class="text-dark-white font-weight-light">
+          Caso não consiga se inscrever pelo site da Tattoo Week acesse o link, você pode efetuar seu pagamento e inscrição no seguinte  <a href="https://lets.events/e/recorde-corinthians-de-tatuagem/tickets/?t=c33d0a68-00cc-45f4-aefe-f84ca4bdbb8c">LINK</a>.
+
+       
+          </div>
+        </div>
+      </div>
+      <div class="pergQUATRO">
+        <div class="my-1" id="headerPergQUATRO">
+          <a href="" class="text-orange " data-toggle="collapse" data-target="#respostaQUATRO" aria-expanded="true" aria-controls="respostaQUATRO">
+          <span class="text-yellow">3.</span> COMO SABEREI QUE O MEU CADASTRO FOI CONCLUÍDO? <i class="fas fa-angle-down text-white"></i>
+          </a>
+        </div>
+        <div id="respostaQUATRO" class="collapse" aria-labelledby="headerPergQUATRO" data-parent="#perguntas">
+          <div class="text-dark-white font-weight-light">
+          Em até 24h será enviada uma mensagem com o horário e dia que deverá estar no Corinthians para fazer sua tattoo.
+          </div>
+        </div>
+      </div>
+      <div class="pergCINCO">
+        <div class="my-1" id="headerPergCINCO">
+          <a href="" class="text-orange  " data-toggle="collapse" data-target="#respostaCINCO" aria-expanded="true" aria-controls="respostaCINCO">
+            <span class="text-yellow">4.</span> O EVENTO POSSUI LIMITE DE PARTICIPAÇÃO?<i class="fas fa-angle-down text-white"></i>
+          </a>
+        </div>
+        <div id="respostaCINCO" class="collapse" aria-labelledby="headerPergCINCO" data-parent="#perguntas">
+          <div class="text-dark-white font-weight-light">
+            Basta acessar o link de compra dos ingressos, clicar na opção 'nacionalidade estrangeira' e seguir os passos é simples e rápido.
+          </div>
+        </div>
+      </div>
+      <div class="pergSEIS">
+        <div class="my-1" id="headerPergSEIS">
+          <a href="" class="text-orange " data-toggle="collapse" data-target="#respostaSEIS" aria-expanded="true" aria-controls="respostaSEIS">
+          <span class="text-yellow">5.</span> AINDA TENHO DÚVIDAS SOBRE O EVENTO, O QUE FAÇO? <i class="fas fa-angle-down text-white"></i>
+          </a>
+        </div>
+        <div id="respostaSEIS" class="collapse" aria-labelledby="headerPergSEIS" data-parent="#perguntas">
+          <div class="text-dark-white font-weight-light">
+          Mande um email para tattooweek@tattooweek.com.br ou mensagem para o WhatsApp: 95558-0441
+          <br><br>
+          <span class="small muted">*O não comparecimento ao evento cancela a inscrição sem direito a reembolso.</span>
+          </div>
+        </div>
+      </div>
+      <div class="pergSETE">
+        <div class="my-1" id="headerPergSETE">
+          <a href="" class="text-orange " data-toggle="collapse" data-target="#respostaSETE" aria-expanded="true" aria-controls="respostaSETE">
+          <span class="text-yellow">6.</span> QUAL É O TAMANHO DA TATUAGEM? <i class="fas fa-angle-down text-white"></i>
+          </a>
+        </div>
+        <div id="respostaSETE" class="collapse" aria-labelledby="headerPergSETE" data-parent="#perguntas">
+          <div class="text-dark-white font-weight-light">
+            A sua tatuagem terá tamanho de 3,5cm x 2,5cm.
+          </div>
+        </div>
+      </div>
+      <div class="pergOITO">
+        <div class="my-1" id="headerPergOITO">
+          <a href="" class="text-orange " data-toggle="collapse" data-target="#respostaOITO" aria-expanded="true" aria-controls="respostaOITO">
+          <span class="text-yellow">7.</span> POSSO ESCOLHER O LOCAL ONDE VAI SER FEITA A TATUAGEM? <i class="fas fa-angle-down text-white"></i>
+          </a>
+        </div>
+        <div id="respostaOITO" class="collapse" aria-labelledby="headerPergOITO" data-parent="#perguntas">
+          <div class="text-dark-white font-weight-light">
+           Pode sim! As únicas restrições de local para tatuagem são as regiões de mobilidade (Joelhos, Cotovelos, Calcanhares etc...)
+          </div>
+        </div>
+      </div>
+
+
+
+
+        </div>
+      </div>
+
+</section>
+
+
+
+    
+
+
+
+<footer id="footer">
+
+<div class="container-fluid py-0 py-md-2 mb-5">
+
+
+      <div class="row">
+        <div class="col-12 col-md-3 col-sm-12 text-sm-center my-4 d-flex flex-wrap justify-content-center align-items-center">
+          <img src="img/logo-tattoo-week-_-corinthians-recordes-guinness-world-records-20192.png" class="img-fluid">
+        </div>
+
+        <div id="faleconosco" class=" col-12 col-md-2 my-4 mt-sm pr-md-4 d-flex pr-sm-0 col-sm-12 flex-wrap  align-items-start">        
+          <div class="position-relative w-100  mr-md-5">
+            <div class="position-absolute t-0 r-0 text-center text-md-left w-100">
+              <h6 >FALE CONOSCO</h6>
+              <h6 class="grey-text">+55(11) 4226-2157 </h6>
+              <h6  class="grey-text" style="font-size:15px!important">contato@tattooweek.com.br</h6>
+            </div>
+          </div>
+        </div>
+
+        <div id="redessociais" class=" col-12 col-md-2 my-4 mt-sm pr-md-4 d-flex pr-sm-0 text-sm-center col-sm-12 flex-wrap  align-items-start">        
+          <div class="position-relative w-100 mr-md-5">
+            <div class="position-absolute t-0 r-0 text-center text-md-left w-100">
+              <h6>REDES SOCIAIS</h6>
+              <a href="https://www.instagram.com/tattooweek/"><h6 class="grey-text" style="font-size:12px!important">INSTAGRAM:@TATTOOWEEK</h6></a>
+              <a href="https://pt-br.facebook.com/tattooweek/"><h6  class="grey-text" style="font-size:12px!important">FACEBOOK:/TATTOOWEEK</h6></a>
+              <a href="https://www.instagram.com/corinthians/"><h6 class="grey-text" style="font-size:12px!important">INSTAGRAM:@CORINTHIANS</h6></a>
+              <a href="https://pt-br.facebook.com/corinthians/"><h6  class="grey-text" style="font-size:12px!important">FACEBOOK:/CORINTHIANS</h6></a>
+            </div>
+          </div>
+        </div>
+
+        <div id="legal" class=" col-12 col-md-2 my-4 mt-sm pr-md-4  pr-sm-0 d-flex  text-sm-center col-sm-12 flex-wrap  align-items-start">        
+          <div class="position-relative w-100  mr-md-5">
+            <div class="position-absolute t-0 r-0 text-center text-md-left w-100">
+              <h6>LEGAL</h6>
+              <h6 class="grey-text">Regulamento</h6>
+            </div>
+          </div>
+        </div>
+
+
+        <div id="logotattooweekfooter" class=" col-12 col-md-2 col-sm-12 d-flex flex-wrap justify-content-center align-items-center">
+          <img src="img/logo-tattoo-week-_-corinthians-recordes-guinness-world-records-2019.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center align-items-center text-center">
+        <div><h6 style="font-size:13px!important;">&copy;CORINTHIANS & TATTOOWEEK 2019 TODOS OS DIREITOS RESERVADOS.</h6></div>
+    </div>
+
+
+    <div class="modal fade" id="comprarModal" tabindex="-1" role="dialog" aria-labelledby="comprarModalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content box-shadow-soft background-dark-transparent">
+          <div class="modal-header bb-1-dark p-3">
+            <h5 class="text-white pl-2 mb-0">Complete os dados abaixos</h5>
+            <button type="button" class="close close-white m-0 p-0" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+
+
+</footer>
+
+
+<div class="modal fade" id="confirm" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content" style="background-color:#1c1c1f">
+            <div class="modal-header">
+              <div class="justify-content-center d-flex m-auto">
+                 <img src="img/logo-tattoo-week-_-corinthians-recordes-guinness-world-records-2019.png" height="50" width="60" style="border-right:1px solid white; padding-right:10px!important">
+                 <img src="img/logo-tattoo-week-_-corinthians-recordes-guinness-world-records-20192.png" height="50" width="50" style="margin-left:10px">
+              </div>
+                </div>
+            <div class="modal-body">
+<p style="font-size:15px; font-weight:300">
+REGULAMENTO – Record Corinthians de Tatuagem <br><br>
+1 - Record Corinthians de Tatuagem <br><br>
+
+O evento, “RECORD CORINTHIANS DE TATUAGEM” aqui denominado “Record Corinthians de Tatuagem será realizada nos dias 28  e 29 de setembro de 2019, às 10:00h, em quaisquer condições climáticas.
+<br><br>
+Serão tatuados 3000 inscritos previamente cadastrados no site da Tattoo Week que pagaram comprovadamente o valor de R$ 90,00 + taxas.
+<br><br>
+A Tatuagem do record será o logo “CP” já padronizado pela equipe Tattoo Week.
+As Dimensões da tatuagem são 5cm x 3cm.
+<br><br>
+O local da tatuagem será de livre escolha do torcedor, exceto áreas íntimas e regiões de mobilidade (palma da mão, pé).
+<br><br>
+As inscrições deverão ser feitas no site www.tattooweek.com.br/record.
+<br><br>
+Em caso de inscrição seja efetuada via boleto bancária no caso de não pagamento do bolete em até 24 horas a inscrição é cancelada.
+<br><br>
+No caso de não comparecimento no dia do evento, a inscrição é cancelada sem direito a reembolso. 
+<br><br>
+O horário de início  poderá sofrer alterações em razão da quantidade de inscritos e de fatores de ordem externa, tais como, tráfego intenso, falhas de comunicação ou determinação do Poder Público.
+<br><br>
+Poderão participar apenas maiores de 18 anos de ambos os sexos, com idade igual ou superior a 18 anos.
+<br><br>
+Ao participar do RECORD CORINTHIANS DE TATUAGEM o participante cede todos os direitos de utilização de sua imagem, inclusive direito de divulgação do record em qualquer mídia, em qualquer tempo.
+<br><br>
+O participante deverá tomar conhecimento prévio do regulamento da RECORD CORINTHIANS DE TATUAGEM, assumindo a responsabilidade por seus dados fornecidos, aceitando totalmente as regras estabelecidas no presente Regulamento.
+<br><br>
+O participante através do ato da inscrição realizada por ele, assume que participa do RECORD CORINTHIANS DE TATUAGEM por livre e espontânea vontade, isentando de qualquer responsabilidade a Organização, Patrocinadores e Apoiadores.
+<br><br>
+Este evento é uma realização do Sport Club Corinthians e Tattoo Week. Será criada uma Comissão, constituída por funcionários e colaboradores dos organizadores, que terão competência para resolver qualquer problema ou responder a eventuais dúvidas que venham a surgir durante o evento
+<br><br>
+No caso de ser identificada inscrição fraudulenta, o participante ficará impossibilitado de participar em futuras edições de eventos realizados pelos Organizadores, autorizará que seja emitido um boleto bancário referente à diferença dos valores devidos pela inscrição e sujeitar-se-á às responsabilidades penais cabíveis.
+<br><br>
+Pagamento efetuado para boleto vencido ou inscrição cancelada, não será considerado como participante do evento.
+<br><br>
+No ato da inscrição, ao concordar com o regulamento, assinalando a opção apresentada no sistema on-line ou na ficha de inscrição, o (a) participante aceita todos os termos do regulamento e assume total responsabilidade por sua participação no evento de acordo com o TERMO DE RESPONSABILIDADE que é parte integrante deste regulamento.
+<br><br>
+A inscrição na RECORD CORINTHIANS DE TATUAGEM é pessoal e intransferível, não podendo qualquer pessoa ser substituída por outra, em qualquer situação. O participante que ceder sua inscrição para outra pessoa e não comunicar aos organizadores do evento, formalmente e por escrito, será responsável por qualquer acidente ou dano que este venha a sofrer, isentando o atendimento e qualquer responsabilidade dos organizadores, seus patrocinadores, apoiadores e órgãos públicos envolvidos no evento.
+<br><br>
+As inscrições estarão disponíveis até dia 27 de setembro de 2019 as 23:59h, ou em data anterior a esta, caso seja atingido o limite técnico de 3000 inscritos.
+<br><br>
+A empresa organizadora poderá, a qualquer momento, suspender ou prorrogar prazos ou, ainda, elevar ou limitar o número de inscrições, em função de necessidades, disponibilidade técnica e/ou questões estruturais, sem aviso prévio.
+<br><br>
+Os participantes são responsáveis pela veracidade das informações fornecidas no sistema on-line ou na ficha de inscrição. Caso haja fraude comprovada, o (a) participante será desclassificado.
+<br><br>
+No ato da inscrição os participantes concordam que o e-mail tattooweek@tattooweek será o meio de comunicação utilizado pela empresa organizadora para repassar informações e atualizações referentes ao record.
+<br><br>
+Parágrafo único: Em caso de desistência, o valor da inscrição não será devolvido.
+<br><br>
+2 - KITS
+<br><br>
+Para cada inscrito pagante serão entregues:<br>
+1 voucher para tatuar o logo CP, com as dimensões 5x3.<br>
+1 camiseta do evento.<br>
+1 ingresso vip para participar da Tattoo Week (dias 25,26 e 27/10).<br>
+1 ingresso para um jogo do Corinthians na Arena (data à definir).<br>
+ 
+O (a) participante que não retirar o seu kit ficará impedido de participar do Record e perderá o direito de retirar o kit. Não serão entregues kits do evento  após o evento.
+
+Para retirar o kit de participação o participante deverá apresentar documento de identificação e a respectiva confirmação de inscrição. 
+
+OBS: para atletas acima de 60 anos é obrigatória a presença para retirada de kit.
+
+Não serão aceitas reclamações cadastrais após a retirada do kit.
+
+Estarão disponíveis os seguintes tamanhos de camisas para Masculino/Feminino: PP, P, M, G, GG ( UNISSEX) estando sujeito a alteração, de acordo com a disponibilidade e ordem de retirada de kit.
+<br><br>
+3 - DIVULGAÇÃO E DIREITOS AUTORAIS<br><br>
+O (a) participante que se inscreve e/ou participa do Record está incondicionalmente aceitando e concordando em ter sua imagem divulgada através de fotos, filmes, rádio, jornais, revistas, internet e televisão, ou qualquer outro meio de comunicação, para usos informativos, promocionais ou publicitários relativos ao record, sem acarretar nenhum ônus aos organizadores, renunciando o recebimento de qualquer renda que vier a ser auferida com tais direitos, aos patrocinadores ou meios de comunicação em qualquer tempo/ data.
+
+Todos os participantes do evento, staffs, organizadores e público em geral, cedem todos os direitos de utilização de sua imagem para a empresa organizadora do evento.
+
+A filmagem, transmissão pela televisão, fotografias ou vídeo - tape relativos ao Record têm os direitos reservados aos organizadores.
+Parágrafo único. Qualquer forma de divulgação ou interesse em destinar um profissional para a cobertura do evento estará sujeita à autorização e aprovação pela empresa organizadora.
+<br><br>
+4- SUSPENSÃO, ADIAMENTO E CANCELAMENTO<br><br>
+A Comissão Organizadora, primando pela segurança dos participantes, poderá determinar a suspensão do evento, iniciado ou não, por questões de segurança pública, vandalismo e/ou motivos de força maior. Sendo suspenso o evento, por qualquer um destes motivos.
+
+Os (as) participantes ficam cientes que deverão assumir no ato da inscrição todos os riscos e danos da eventual suspensão do evento (iniciada ou não) por questões de segurança pública, não gerando qualquer responsabilidade para a Comissão Organizadora.
+
+Na hipótese de cancelamento da inscrição não haverá devolução do valor de inscrição.
+
+O Evento poderá ser antecipada, adiada ou cancelada a critério da Comissão Organizadora. O fato, será comunicado aos inscritos, pelo site oficial.
+
+Na hipótese de adiamento do evento e a consequente divulgação de nova data não haverá devolução do valor da inscrição.
+
+Na hipótese de cancelamento do evento (sem divulgação de nova data) os inscritos deverão solicitar o reembolso da inscrição.
+
+<br><br>
+5 - RESPONSABILIDADES DA ORGANIZADORA<br><br>
+
+A ORGANIZAÇÃO do EVENTO, bem como seus PATROCINADORES, APOIADORES E
+REALIZADORES, não se responsabiliza por prejuízos ou danos causados pelos inscritos no EVENTO, seja ao patrimônio público, a terceiros, a outros participantes, sendo esses de única e exclusiva responsabilidade do autor.
+<br><br>
+     6 – DISPOSIÇÕES FINAIS<br><br>
+As dúvidas ou informações técnicas deverão ser enviadas por e-mail, para que sejam registradas e respondidas a contento.
+A Comissão Organizadora poderá, a seu critério, a qualquer tempo ou conforme as necessidades do evento, alterar ou revogar este regulamento, total ou parcialmente, informando as mudanças pelo site oficial da  Tattoo Week..
+As dúvidas ou omissões deste regulamento serão dirimidas pela Comissão Organizadora de forma soberana, não cabendo recurso a estas decisões.
+Ao se inscrever no record, o participante assume automaticamente o conhecimento de todos os termos deste Regulamento, ficando de acordo com todos os itens supracitados e acata todas as decisões da Organização, comprometendo-se a
+não recorrer a nenhum órgão ou Tribunal, no que diz respeito a qualquer punição imputada pelos organizadores do evento.
+Todos os diretos autorais relativos a este regulamento desse evento pertencem à Comissão Organizadora e realizadora do evento
+ESCLARECIMENTOS:<br>
+E-MAIL: tattooweek@tattooweek.com.br <br>
+Evento: RECORD CORINTHIANS DE TATUAGEM<br>Organização: Sport Club Corinthians e Tattoo Week<br>
+</p>
+            </div>
+        <div class="modal-footer justify-content-center">
+        <button type="button" class="btn btn-secondary w-50" data-dismiss="modal" style="line-height:30px; font-size:15px;">Fechar</button>
+        </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript">
+$('.regulamento').on('click', function (e) {
+    $('#confirm').modal({
+        show: true
+    });
+});
+</script>
+
+
+
+
+
+</body>
+
+</html>

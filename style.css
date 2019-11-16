@@ -1,0 +1,161 @@
+body{
+    height:100%;
+    width:100%;
+}
+
+*{
+    font-family: 'Raleway', sans-serif!important;
+    font-weight:bold;
+    font-size:20px;
+    color:white!important;
+}
+
+#header{
+    background-image:url('../img/background-tattoo-week-_-corinthians-record-2019.jpg');
+    background-size:100% 100%;
+}
+
+#guinness h2{
+    font-style: italic!important;
+}
+
+#howto{
+    padding-top:50px;
+    background-image:url('../img/background-tattoo-week-_-corinthians-record-20192.jpg');
+    background-size:100% 100%;
+}
+
+
+
+#form input, #form select{
+    background-color:rgba(5, 117, 155, 0.24);
+    border:none;
+
+}   
+#form option{
+    background-color:black;
+}
+
+
+#form input::placeholder {
+    color: white;
+    opacity:none!important;
+  }
+
+  #form{
+      padding-top:70px;
+  }
+
+  #btnsubmit{
+      color:black!important;
+      background-color:white;
+      font-weight:bold;
+      
+  }
+
+  #faq {
+      padding-top:70px;
+      background-image:url('../img/background-tattoo-week-_-corinthians-record-20193.jpg');
+      background-size:100% 100%;
+  }
+
+  #faq .pergDOIS, .pergTRES, .pergQUATRO, .pergCINCO, .pergSEIS,.pergSETE, .pergOITO{
+      border-bottom: 1px dotted #febe00;
+        padding-bottom:10px;
+        padding-top:10px
+  }
+
+  #faq{
+      padding-bottom:200px;
+  }
+
+  #faq a{
+      text-decoration:none;
+  }
+  .text-yellow{
+
+  color:#febe00!important;
+    
+  }
+
+  #footer{
+      background-color: #1c1c1f;
+      padding-top:70px; 
+      
+
+  }
+
+  html, body{
+      scroll-behavior: smooth;
+  }
+
+  .grey-text{
+      color:grey!important;
+      font-size:15px!important;
+  }
+
+  @media (max-width: 767px) { 
+        #header{
+            height:600px!important;
+           background-image:url('../img/background-mobile-tattoo-week-&-corinthians-record-2019.jpg')
+        }
+        #header#thisback{
+            align-items:center!important;
+        }
+
+        
+        #buttondescer{
+            padding-top:50px;
+        }
+        #legal{
+            margin-top:120px!important;
+        }
+        #redessociais{
+            margin-top:80px!important;
+        }
+        #faleconosco{
+            margin-top:70px!important;
+        }
+
+        #logotattooweekfooter{
+            margin-top:70px!important;
+        }
+
+        #btnsubmit{
+            width:50%!important;
+        }
+
+        #thisback{
+            margin-top:80px;
+        }
+
+
+   }
+
+
+   @media (max-width: 768px) { 
+    #logonav{
+        display:none!important;
+    }
+    #bg-dark-md{
+        background-color:	#292b2c;
+    }
+   }
+
+
+
+
+   @import url( 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css' );
+
+    .modal-body {
+      height: calc(80vh - 126px);
+      overflow-y:scroll;
+    }
+
+
+
+
+    #redessociais a:hover{
+        color:white!important;
+        text-decoration:none;
+    }
